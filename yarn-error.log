@@ -1,0 +1,51 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @prisma/client
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Yarn\bin\;C:\Ruby32-x64\bin;C:\sqlite3;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Users\chait\AppData\Local\Android\Sdk\platform-tools;C:\RailsInstaller\Ruby2.3.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Windows\System32\Wbem;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chait\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\Users\chait\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\chait\AppData\Local\Programs\Python\Python310\;C:\Users\chait\AppData\Local\Microsoft\WindowsApps;C:\Users\chait\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chait\MinGW\bin;C:\Users\chait\go\bin;C:\flutter\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin;;C:\Users\chait\AppData\Local\Yarn\bin;C:\Users\chait\AppData\Roaming\npm;C:\Program Files (x86)\HP\Common\HPDestPlgIn\;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1.4\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\new-Projects\college-finder\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "college-finder",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "14.2.13",
+      "react": "^18",
+      "react-dom": "^18",
+      "react-icons": "^5.3.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "postcss": "^8",
+      "prisma": "^5.20.0",
+      "tailwindcss": "^3.4.1",
+      "typescript": "^5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

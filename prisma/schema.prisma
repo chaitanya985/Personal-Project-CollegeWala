@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model CollegeList {
+  id String @id @default(uuid())
+  name String
+  description String
+  location String
+  entrance String
+  cutoff Float @default(0)
+  stream String
+  author String
+  img String?
+  collegeType String?
+  postedAt DateTime @default(now())
+  collegeUrl String?
+}
